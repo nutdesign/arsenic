@@ -1,0 +1,87 @@
+//  helper classes
+// --------------------------------
+
+.uc {
+    text-transform: uppercase;
+}
+
+.no-bottom {
+    bottom-margin: 0;
+}
+
+// type
+// -------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: .75rem;
+}
+
+// header
+//--------------
+
+// logotype
+
+$as-header-family: FF Tisa Sans Pro Medium;
+
+.program-name {
+    font-family: $as-header-family;
+    font-size: rem-calc(21);
+    line-height: 1.4;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    color: #8a8a8a;
+}
+
+.program-title {
+    font-family: $as-header-family;
+    font-size: rem-calc(28);
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #444;
+}
+
+// nav
+
+nav {
+    padding: 2rem 0;
+    font-family: $as-header-family;
+}
+
+.menu > li {
+    vertical-align: top;
+}
+
+.primary-menu-items > li {
+    border-left: 1px solid #ddd;
+}
+
+// intro
+// ----------
+
+.intro {
+    background-color: #555;
+    padding: 1rem 0 2rem 0;
+    margin: 2rem 0;
+    h1 {
+        color: whitesmoke;
+        font-family: $as-header-family;
+    }
+}
+
+.lead {
+    color: #ddd;
+    font-family: 'FF Tisa OT Italic';
+}
+
+// main content
+//---------------
+
+.main-content {
+    margin-bottom: 3rem;
+}
