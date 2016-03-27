@@ -61,6 +61,35 @@ nav {
     border-left: 1px solid #ddd;
 }
 
+// mjy 
+// via https://zurb.com/expo/lessons/how-to-re-create-top-bar-with-foundation-6 
+
+.title-bar {
+  background: $black;
+  padding: 0.9rem;
+  font-family: $as-header-family;
+}
+
+.top-bar {
+  background: $black;
+  
+  
+  ul {
+    background: $black;
+    font-family: $as-header-family;
+  
+    li {
+      background: $black;
+      
+      a {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+// end mjy
+
 // intro
 // ----------
 
