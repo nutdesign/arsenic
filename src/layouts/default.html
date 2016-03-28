@@ -48,20 +48,15 @@ font-family: 'FF Tisa Sans Pro Regular'
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> header-nav}}
     {{> body}}
-<section class="intro">
-	<div class="row">
+	<section class="footer">
+		<div class="row">
 		<div class="large-8 large-centered columns">
-			<footer id="footer">
-				<div class="footer-holder">
-					<div class="footer-logo">
-					</div>
-					<em class="footer-info">
-					<p>Last update: %%mod_date%% </p>
-					<p>You are here: %%nav%% %%doc%% (%%doc_id%%) </p> 
-					Copyright &copy; 2016 <em class="dash">-</em> Trustees of Dartmouth College</em>
+					<p>Last update: %%mod_date%% <br>
+					You are here: %%nav%% %%doc%% (%%doc_id%%) <br> 
+					Copyright &copy; 2016 &ndash; Trustees of Dartmouth College</p>
 				</div>
-			</footer> 
 		</div>
-    <script src="{{root}}assets/js/app.js"></script>
+	</section>
+  <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>

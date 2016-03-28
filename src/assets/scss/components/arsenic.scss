@@ -70,12 +70,18 @@ nav {
   font-family: $as-header-family;
 }
 
+.footer {
+	font-family: $as-header-family;
+	font-weight: $global-weight-normal;
+	font-size: $pagination-font-size;
+}
+
 // end mjy
 
 // intro
 // ----------
 
-.intro {
+.intro, .footer {
     background-color: #555;
     padding: 1rem 0 2rem 0;
     margin: 1rem 0;
