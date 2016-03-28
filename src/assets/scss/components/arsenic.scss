@@ -76,13 +76,6 @@ nav {
 	font-size: $pagination-font-size;
 }
 
-.no-js { 
-  @include breakpoint(medium) {
-    .title-bar {
-      display: none;
-    }
-  }
-}
 // end mjy
 
 // intro
