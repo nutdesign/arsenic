@@ -12,7 +12,8 @@ UNCSS_OPTIONS:
     - "src/**/*.html"
   ignore:
     - !!js/regexp .foundation-mq
-    - !!js/regexp ^\.is-.*
+    - !!js/regexp ^\.is-.*  # Is this what's breaking uncss and responsive menus? 
+                            # .is- classes are added for a lot of responsive stuff... 
 
 # Gulp will reference these paths when it copies files
 PATHS:
