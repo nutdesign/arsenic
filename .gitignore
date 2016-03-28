@@ -10,3 +10,13 @@ arsenic-mjy.bbprojectd/Scratchpad.txt
 arsenic-mjy.bbprojectd/Unix Worksheet.worksheet
 
 *.bbprojectdata
+
+dist/assets/css/app.css
+
+dist/assets/js/app.js
+
+dist/food-rice.html
+
+dist/index.html
+
+dist/styleguide.html
