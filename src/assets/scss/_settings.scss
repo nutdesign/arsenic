@@ -62,12 +62,12 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: FF Tisa OT, Freight Sans Pro SemiBold, FF Tisa OT, Lora, Roboto Slab, Source Sans Pro, Roboto, PT Sans, 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: PT Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
 $global-weight-normal: normal;
-$global-weight-bold: bold;
+$global-weight-bold: 700;
 $global-radius: 0;
 $global-text-direction: ltr;
 $global-flexbox: false;
@@ -102,8 +102,8 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: FF Tisa OT;
-$header-font-weight: $global-weight-normal;
+$header-font-family: PT Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$header-font-weight: $global-weight-bold;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (

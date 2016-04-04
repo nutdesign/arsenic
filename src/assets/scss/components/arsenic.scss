@@ -26,10 +26,9 @@ h6 {
 
 // logotype
 
-$as-header-family: FF Tisa Sans Pro Medium;
-
 .program-name {
-    font-family: $as-header-family;
+    font-family: $header-font-family;
+    font-weight: $global-weight-bold;
     font-size: rem-calc(21);
     line-height: 1.4;
     margin-top: 2rem;
@@ -38,7 +37,8 @@ $as-header-family: FF Tisa Sans Pro Medium;
 }
 
 .program-title {
-    font-family: $as-header-family;
+    font-family: $header-font-family;
+    font-weight: $global-weight-bold;
     font-size: rem-calc(28);
     line-height: 1.4;
     margin-top: 0;
@@ -50,7 +50,8 @@ $as-header-family: FF Tisa Sans Pro Medium;
 
 nav {
     padding: 1rem 0;
-    font-family: $as-header-family;
+    font-family: $header-font-family;
+    font-weight: $global-weight-bold;
 }
 
 .menu > li {
@@ -67,11 +68,12 @@ nav {
 .title-bar {
   background: $black;
   padding: 0.9rem;
-  font-family: $as-header-family;
+  font-family: $header-font-family;
+  font-weight: $global-weight-bold;
 }
 
 .footer {
-	font-family: $as-header-family;
+	font-family: $header-font-family;
 	font-weight: $global-weight-normal;
 	font-size: $pagination-font-size;
 }
@@ -87,13 +89,13 @@ nav {
     margin: 1rem 0;
     h1 {
         color: whitesmoke;
-        font-family: $as-header-family;
     }
 }
 
 .lead {
     color: #ddd;
-    font-family: 'FF Tisa OT Italic';
+    font-style: italic;
+   // font-family: 'FF Tisa OT Italic';
 }
 
 // main content
