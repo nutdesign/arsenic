@@ -6,7 +6,7 @@
 }
 
 .no-bottom {
-    bottom-margin: 0;
+    margin-bottom: 0;
 }
 
 // type
@@ -34,6 +34,7 @@ h6 {
     margin-top: 2rem;
     margin-bottom: 0;
     color: #8a8a8a;
+    text-align: center;
 }
 
 .program-title {
@@ -44,14 +45,25 @@ h6 {
     margin-top: 0;
     margin-bottom: 0;
     color: #444;
+    text-align: center;
 }
 
 // nav
 
 nav {
-    padding: 1rem 0;
     font-family: $header-font-family;
     font-weight: $global-weight-bold;
+
+    padding: 1rem 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.is-dropdown-submenu {
+    display: none;
 }
 
 .menu > li {
@@ -83,10 +95,11 @@ nav {
 // intro
 // ----------
 
-.intro, .footer {
+.intro, 
+.footer {
     background-color: #555;
     padding: 1rem 0 2rem 0;
-    margin: 1rem 0;
+    margin: 0 0 1rem 0;
     h1 {
         color: whitesmoke;
     }
