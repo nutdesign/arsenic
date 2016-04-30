@@ -21,6 +21,14 @@ h6 {
     margin-top: 1.5rem;
 }
 
+h2,
+h3 {
+    margin-left: -16.66667%;
+    margin-right: -16.66667%;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+
 // header
 //--------------
 
@@ -95,8 +103,8 @@ nav {
 // intro
 // ----------
 
-.intro, 
-.footer {
+.intro/* , 
+.footer */ {
     background-color: #555;
     padding: 1rem 0 2rem 0;
     margin: 0 0 1rem 0;
@@ -107,17 +115,20 @@ nav {
 
 .lead {
     color: #ddd;
-    font-style: italic;
+    font-weight: 700;
    // font-family: 'FF Tisa OT Italic';
 }
 
 blockquote {
-    margin: 1rem 0 2rem -16.5%;
-    padding: 0.5625rem 1.25rem 0 1.1875rem;
-    /* border-left: 1px solid #cacaca; */
-    width: 133%;
-    font-size: 137.5%;
+    margin: 1rem -25% 2rem ;
+    padding: 0.9375rem 0;
+    font-size: 178.125%;
     font-style: italic;
+}
+
+cite {
+    font-style: normal;
+    text-align: right;
 }
 
 // main content
