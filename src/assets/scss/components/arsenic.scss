@@ -31,6 +31,26 @@ h3 {
     }
 }
 
+h1 {
+    color: $white;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: $secondary-color;
+}
+
+[role="menuitem"] a {
+    color: $black;
+}
+
+a {
+    font-weight: 700;
+}
+
 // header
 //--------------
 
@@ -43,7 +63,7 @@ h3 {
     line-height: 1.4;
     margin-top: 2rem;
     margin-bottom: 0;
-    color: #8a8a8a;
+    color: $tertiary-color;
     text-align: center;
 }
 
@@ -54,7 +74,7 @@ h3 {
     line-height: 1.4;
     margin-top: 0;
     margin-bottom: 0;
-    color: #344749;
+    color: $secondary-color;
     text-align: center;
 }
 
@@ -107,16 +127,22 @@ nav {
 
 .intro/* , 
 .footer */ {
-    background-color: #344749;
+    // background-color: $primary-color;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7e9b47+0,657e39+50,52662e+100 */
+    background: #657e39; /* Old browsers */
+    // background: -moz-linear-gradient(top,  #7e9b47 0%, #657e39 50%, #52662e 100%); /* FF3.6-15 */
+    // background: -webkit-linear-gradient(top,  #7e9b47 0%,#657e39 50%,#52662e 100%); /* Chrome10-25,Safari5.1-6 */
+    // background: linear-gradient(to bottom,  #7e9b47 0%,#657e39 50%,#52662e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e9b47', endColorstr='#52662e',GradientType=0 ); /* IE6-9 */
     padding: 1rem 0 2rem 0;
     margin: 0 0 1rem 0;
-    h1 {
-        color: whitesmoke;
-    }
+   h1 {
+        text-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+    } 
 }
 
 .lead {
-    color: whitesmoke;
+    color: $white;
     font-weight: 700;
    // font-family: 'FF Tisa OT Italic';
 }
@@ -135,18 +161,19 @@ nav {
 
 blockquote {
     font-style: italic;
+    border-top: .3em solid lighten($primary-color, 30%);
 }
 
 @include breakpoint(large) {
     blockquote {
-        margin: 1rem -25% 2rem ;
+        margin: 2.5rem -16.66667% 2rem ;
         font-size: 178.125%;
     }
 }
  
 @include breakpoint(medium only) {
     blockquote {
-        margin: 1rem -6% 2rem ;
+        margin: 2.5rem -6% 2rem ;
         padding: 0.9375rem 0;
         font-size: 140%;
     }

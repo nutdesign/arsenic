@@ -50,19 +50,22 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
  // primary: #71a520,
-  primary: #c9493c,
-  secondary: #777,
+ secondary: #b75d00,
+  primary: #657e39,
+ //  secondary: #AB2200,
+  tertiary: #2f7e86,
   success: #3adb76,
   warning: #ffae00,
   alert: #ec5840,
 );
+$tertiary-color: #006268;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
+$dark-gray: #4f4f4f;
+$black: #343434;
 $white: #fefefe;
 $body-background: $white;
-$body-font-color: $black;
+$body-font-color: $dark-gray;
 $body-font-family: PT Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -143,7 +146,7 @@ $header-sizes: (
     'h6': 12.8, 
   ),
 );
-$header-color: #27380b;
+$header-color: $black;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-text-rendering: optimizeLegibility;
@@ -158,7 +161,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $primary-color;
+$anchor-color: #005ea7;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -174,11 +177,11 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $dark-gray;
-$blockquote-padding: rem-calc(9 20 0 19);
+$blockquote-color: $tertiary-color;
+$blockquote-padding: rem-calc(24 20 0 19);
 $blockquote-border: none;
 $cite-font-size: 75%;
-$cite-color: $dark-gray;
+$cite-color: adjust-color($primary-color, $hue: -7%, $saturation: 62%, $lightness: -17%);
 $keystroke-font: $font-family-monospace;
 $keystroke-color: $black;
 $keystroke-background: $light-gray;
