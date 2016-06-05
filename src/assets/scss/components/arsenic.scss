@@ -161,7 +161,8 @@ nav {
 
 blockquote {
     font-style: italic;
-    border-top: .3em solid lighten($primary-color, 30%);
+    // border-top: .3em solid lighten($primary-color, 25%);
+    border-top: .3em solid $tertiary-color;
 }
 
 @include breakpoint(large) {

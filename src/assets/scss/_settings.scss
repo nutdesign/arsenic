@@ -50,9 +50,9 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
  // primary: #71a520,
- secondary: #b75d00,
+secondary: #b75d00,
   primary: #657e39,
- //  secondary: #AB2200,
+  //  secondary: #AB2200,
   tertiary: #2f7e86,
   success: #3adb76,
   warning: #ffae00,
@@ -177,7 +177,7 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $tertiary-color;
+$blockquote-color: $black;
 $blockquote-padding: rem-calc(24 20 0 19);
 $blockquote-border: none;
 $cite-font-size: 75%;
