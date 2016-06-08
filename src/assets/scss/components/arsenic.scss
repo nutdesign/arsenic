@@ -21,7 +21,7 @@ h6 {
     margin-top: 1.5rem;
 }
 
-h2,
+/* h2,
 h3 {
     @include breakpoint(medium) {
         margin-left: -16.66667%;
@@ -29,7 +29,7 @@ h3 {
         padding-left: .9375rem;
         padding-right: .9375rem;
     }
-}
+} */
 
 h1 {
     color: $white;
@@ -48,7 +48,7 @@ h3 {
 }
 
 a {
-    font-weight: 700;
+    word-wrap: break-word;
 }
 
 // header
@@ -186,6 +186,15 @@ cite {
     text-align: right;
     margin-top: 1em;
 }
+
+.callout.large {
+    @include breakpoint(medium) {
+        margin-left: -16.66667%;
+        margin-right: -16.66667%;
+        padding-left:  16.66667%;
+        padding-right: 16.66667%;
+    }
+} 
 
 // main content
 //---------------
