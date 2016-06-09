@@ -21,15 +21,14 @@ h6 {
     margin-top: 1.5rem;
 }
 
-/* h2,
-h3 {
+h2 {
     @include breakpoint(medium) {
         margin-left: -16.66667%;
         margin-right: -16.66667%;
         padding-left: .9375rem;
         padding-right: .9375rem;
     }
-} */
+} 
 
 h1 {
     color: $white;
