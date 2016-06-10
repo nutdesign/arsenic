@@ -21,15 +21,15 @@ h6 {
     margin-top: 1.5rem;
 }
 
-/* h2,
-h3 {
+h2
+ {
     @include breakpoint(medium) {
         margin-left: -16.66667%;
         margin-right: -16.66667%;
         padding-left: .9375rem;
         padding-right: .9375rem;
     }
-} */
+}
 
 h1 {
     color: $white;
@@ -40,8 +40,13 @@ h2 {
 }
 
 h3 {
-    color: $secondary-color;
+    color: $secondary-color; 
+    .callout & {
+    color: darken($secondary-color, 15%)
+    }
 }
+
+
 
 [role="menuitem"] a {
     color: $black;
@@ -115,9 +120,12 @@ nav {
 }
 
 .footer {
-	font-family: $header-font-family;
-	font-weight: $global-weight-normal;
-	font-size: $pagination-font-size;
+    font-family: $header-font-family;
+    font-weight: $global-weight-normal;
+    font-size: $pagination-font-size;
+    border-top: .3em solid #006268;
+    padding-top: 2em;
+    margin-top: 5em;
 }
 
 // end mjy

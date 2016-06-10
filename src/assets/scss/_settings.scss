@@ -45,7 +45,7 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+$global-font-size: 106.25%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
@@ -282,13 +282,14 @@ $buttongroup-expand-max: 6;
 // 13. Callout
 // -----------
 
-$callout-background: #d7aa4c;
-$callout-background-fade: 85%;
+// $callout-background: #d7aa4c;
+$callout-background: #dda845;
+$callout-background-fade: 5%;
 // $callout-border: 1px solid rgba($black, 0.25);
 $callout-border: none;
 $callout-margin: 2rem 0;
 $callout-padding: 1rem;
-$callout-font-color: #000;
+$callout-font-color: #343434;
 $callout-font-color-alt: $body-background;
 $callout-radius: 20px;
 $callout-link-tint: 30%;
