@@ -18,6 +18,8 @@ npm install
 bower install
 ```
 
+## Everyday Development Startup
+
 ### Run npm install:
 
 * Failed at the phantomjs@1.9.19 install script 'node install.js'.
