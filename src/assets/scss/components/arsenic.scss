@@ -64,23 +64,23 @@ a {
 .program-name {
     font-family: $header-font-family;
     font-weight: $global-weight-bold;
-    font-size: rem-calc(21);
+    font-size: rem-calc(30);
     line-height: 1.4;
     margin-top: 2rem;
     margin-bottom: 0;
     color: $tertiary-color;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .program-title {
     font-family: $header-font-family;
     font-weight: $global-weight-bold;
-    font-size: rem-calc(28);
+    font-size: rem-calc(21);
     line-height: 1.4;
     margin-top: 0;
     margin-bottom: 0;
     color: $secondary-color;
-    text-align: center;
+    /* text-align: center; */
 }
 
 // nav
@@ -94,7 +94,7 @@ nav {
 
 .menu {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .is-dropdown-submenu {
