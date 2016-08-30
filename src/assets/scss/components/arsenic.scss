@@ -64,7 +64,7 @@ a {
 .program-name {
     font-family: $header-font-family;
     font-weight: $global-weight-bold;
-    font-size: rem-calc(30);
+    font-size: rem-calc(32);
     line-height: 1.4;
     margin-top: 2rem;
     margin-bottom: 0;
@@ -76,11 +76,19 @@ a {
     font-family: $header-font-family;
     font-weight: $global-weight-bold;
     font-size: rem-calc(21);
-    line-height: 1.4;
+    line-height: 1.0;
     margin-top: 0;
     margin-bottom: 0;
     color: $secondary-color;
     /* text-align: center; */
+}
+
+.program-sponsor {
+	  font-family: $header-font-family;
+    font-size: rem-calc(15);
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 // nav
