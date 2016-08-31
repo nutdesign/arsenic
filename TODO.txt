@@ -1,7 +1,7 @@
 MJY updates as of Aug 31; site re-org for testing
 
 
-* Sub-section index pages have gone away, so primary menu items no longer need links. However, removing the <a > tag causes the menu styling to break. Currently changed the href to "#".
+* Sub-section index pages have gone away, so primary menu items no longer need links. However, removing the <a> tag causes the menu styling to break. Currently changed the href to "#".
 
 * Tried to link the header text to the home page, but this changes the color to the link styling. Tried briefly to fix this, couldn't figure it out. Thus: Need to link all three lines of header text to href="1" and maintain their current colors.
 
