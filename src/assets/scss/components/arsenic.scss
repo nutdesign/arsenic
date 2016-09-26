@@ -100,23 +100,23 @@ nav {
     padding: 1rem 0;
 }
 
-.menu {
+/*.menu {
     display: flex;
-    /* justify-content: center; */
-}
+     justify-content: center; 
+}*/
 
-.is-dropdown-submenu {
+/*.is-dropdown-submenu {
     display: none;
-}
+}*/
 
 .menu > li {
     vertical-align: top;
     font-size: rem-calc(16);
 }
 
-.primary-menu-items > li {
+/*.primary-menu-items > li {
     border-left: 1px solid #ddd;
-}
+}*/
 
 // mjy 
 // via https://zurb.com/expo/lessons/how-to-re-create-top-bar-with-foundation-6 
@@ -138,6 +138,12 @@ nav {
 }
 
 // end mjy
+
+/*#main-menu>li {
+    @include breakpoint(small only) { 
+      display: block;
+    }
+}*/
 
 // intro
 // ----------
@@ -162,7 +168,7 @@ nav {
 .lead {
     color: $white;
     font-weight: 700;
-   // font-family: 'FF Tisa OT Italic';
+    // font-family: 'FF Tisa OT Italic';
 }
 
 /* .main-content-body > p:first-of-type:first-letter { 
