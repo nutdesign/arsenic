@@ -1,15 +1,13 @@
 # How to move arsenic repo files to Pivot
 
-## Extract components
 
-* docHead
-* header
-* footer
-* add %%pivot_messages%%
+## Set up Terminal environment
 
-## Check for any template changes
+* cd ~/dev/arsenic-mjy
+* npm install
+* bower install
+* npm start
 
-* 
 
 ## How to compile SCSS manually
 
@@ -17,4 +15,12 @@
 * Usage: scss [options] [INPUT] [OUTPUT]
 * scss ./assets/scss/app.scss ../dist/assets/css/app.css OR 
 * npm run build
+
+
+## Extract components
+
+* docHead
+* header
+* footer
+* add %%pivot_messages%%
 
