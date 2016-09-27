@@ -11,10 +11,10 @@
 
 ## How to compile SCSS manually
 
-* cd to /Users/mjy/dev/arsenic-mjy/src
+* cd to ~/dev/arsenic-mjy/src
+* npm run build  --- OR ---
 * Usage: scss [options] [INPUT] [OUTPUT]
-* scss ./assets/scss/app.scss ../dist/assets/css/app.css OR 
-* npm run build
+* scss ./assets/scss/app.scss ../dist/assets/css/app.css 
 
 
 ## Extract components
