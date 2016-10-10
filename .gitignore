@@ -66,3 +66,11 @@ dist/assets/img/ricecereal(kidsfood).svg
 dist/assets/img/testkit(testing).svg
 
 dist/assets/img/trowel(fruitsveg).svg
+_value.scssc
+app.scssc
+_color.scssc
+_selector.scssc
+_unit.scssc
+_breakpoint.scssc
+_mixins.scssc
+.sass-cache

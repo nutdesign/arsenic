@@ -1,0 +1,27 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dartmouth Toxic Metals Superfund Research Program</title>
+     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700%7cPT+Serif:400,400italic,700,700italic%7c' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> header-nav}}
+    {{> body}}
+	<section class="footer">
+		<div class="row">
+		<div class="large-9 large-centered columns">
+					<p>Last update: %%mod_date%% <br>
+					You are here: %%nav%% %%doc%% (%%doc_id%%) <br> 
+					Copyright &copy; 2016 &ndash; Trustees of Dartmouth College</p>
+				</div>
+		</div>
+	</section>
+  <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>
