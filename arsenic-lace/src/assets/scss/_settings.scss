@@ -147,7 +147,7 @@ $header-sizes: (
   ),
 );
 $header-color: $black;
-$header-lineheight: 1.4;
+$header-lineheight: 1.2;
 $header-margin-bottom: 1rem;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
@@ -192,7 +192,7 @@ $abbr-underline: 1px dotted $black;
 // 5. Typography Helpers
 // ---------------------
 
-$lead-font-size: $global-font-size * 1.375;
+$lead-font-size: $global-font-size * 1.1;
 $lead-lineheight: 1.6;
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
