@@ -64,7 +64,7 @@ h3 {
     }
 }
 
-@include breakpoint(medium only)  {
+@include breakpoint(large only)  {
     html {
         font-size: 118.8%;
     }
