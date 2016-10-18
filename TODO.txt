@@ -5,4 +5,40 @@ MJY updates as of Aug 31; site re-org for testing
 
 * Tried to link the header text to the home page, but this changes the color to the link styling. Tried briefly to fix this, couldn't figure it out. Thus: Need to link all three lines of header text to href="1" and maintain their current colors.
 
-* 
+
+Oct 4 to-do list with SC:
+
+done * Mobile: Line heights on headers
+done * Mobile: Black bar width / color / style
+done * Mobile: Margins or padding
+done * Mobile: Font size relationships 
+	[ looks good on mobile, still needs work on desktop methinks? ]
+
+done * Mobile: Body font size increase
+
+* Mobile: Header font sizes? 
+	[ possibly still a little large? ]
+	
+done * Mobile: Tighten line-height on mobile headlines
+
+* Maybe: Color bar at bottom of pull-quote (to match color bar at top)
+
+* Recommendation box margin / padding
+
+* Recommendation box full-width color?
+
+* Footer styling
+
+* Add recommendation disclaimer to the footer (“This site aims to provide evidence-based recommendations to reduce exposure to arsenic as much as possible. Some recommendations may not be appropriate or feasible for everyone; that's ok. Follow the recommendations that make sense for you. Any step you take to reduce your exposure to arsenic makes a difference in minimizing your chances of arsenic-related health risks.”
+
+* Color bar behind main menu bar?
+
+* Website header text styling / line-height / etc
+
+* Intro header font sizes / color background?
+
+--- 
+
+* Add sponsor image to footer
+
+* Add additional tag line to header?
