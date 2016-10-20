@@ -118,9 +118,15 @@ $header-sizes: (
     'h4': 18,
     'h5': 17,
     'h6': 16, */
-    'h1': 37,
+/*     'h1': 37,
     'h2': 28,
     'h3': 21,
+    'h4': 16,
+    'h5': 12,
+    'h6': 9,  */
+    'h1': 28,
+    'h2': 22,
+    'h3': 18,
     'h4': 16,
     'h5': 12,
     'h6': 9, 
@@ -192,7 +198,7 @@ $abbr-underline: 1px dotted $black;
 // 5. Typography Helpers
 // ---------------------
 
-$lead-font-size: $global-font-size * 1.1;
+$lead-font-size: $global-font-size * 1.04;
 $lead-lineheight: 1.6;
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
