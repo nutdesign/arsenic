@@ -43,3 +43,27 @@ done * Mobile: Tighten line-height on mobile headlines
 * Add sponsor image to footer
 
 * Add additional tag line to header?
+
+
+===
+
+Laurie goals for project advisory team review in Nov:
+
+* Our design draft
+* Additional / improved color scheme
+*
+
+
+=====
+
+Laurie review call, Fri 10/21
+
+* Shortest page: Meat & animal products
+* Longest page: Rice
+* Review bullets on rice page (2nd level bullets?)
+* Mobile: should long pages have "read more..." or expand/collapse or sub-heads as anchors at top (mobile only: "on this page")
+* Look at Pivot site together next week? scheduled for thursday.
+* how to review design changes: don't go too far down a road without feedback
+* 
+
+
