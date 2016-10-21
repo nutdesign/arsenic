@@ -5,6 +5,7 @@ MJY updates as of Aug 31; site re-org for testing
 
 * Tried to link the header text to the home page, but this changes the color to the link styling. Tried briefly to fix this, couldn't figure it out. Thus: Need to link all three lines of header text to href="1" and maintain their current colors.
 
+=======================================
 
 Oct 4 to-do list with SC:
 
@@ -29,7 +30,7 @@ done * Mobile: Tighten line-height on mobile headlines
 
 * Footer styling
 
-* Add recommendation disclaimer to the footer (“This site aims to provide evidence-based recommendations to reduce exposure to arsenic as much as possible. Some recommendations may not be appropriate or feasible for everyone; that's ok. Follow the recommendations that make sense for you. Any step you take to reduce your exposure to arsenic makes a difference in minimizing your chances of arsenic-related health risks.”
+* Add recommendation disclaimer to the footer (“This information is based on current scientific knowledge about arsenic in food, water, and other sources. It includes evidence-based recommendations to help you reduce exposure to arsenic. While some may not be appropriate or possible for everyone, follow the suggestions that make sense for you. Any step taken to reduce exposure to arsenic makes a difference in lowering your chances of arsenic-related health risks.”
 
 * Color bar behind main menu bar?
 
