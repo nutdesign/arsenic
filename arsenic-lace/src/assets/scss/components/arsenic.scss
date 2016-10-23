@@ -292,7 +292,7 @@ cite {
     @return calc-percent($target, $container);
 }
 
-.illustration {
+/* .illustration {
     float: right;
 
     width: 18%;
@@ -308,7 +308,7 @@ cite {
     }
    // filter: hue-rotate(20deg) ; 
    // shape-outside: polygon(cp(21px, 168px) cp(201px, 534px), cp(58px, 168px) cp(157px, 534px), 45px 135px, 47px 84px, 86px 63px, 109px -5px, 258px -3px, 252px 545px, 44px 541px, 10px 513px);
-}
+} */
 
 
 // Specific classes for .illustrations
@@ -316,7 +316,7 @@ cite {
 
 // TO-DO: Each of these probably need tuned @media specifications
 
-.bodies {
+/* .bodies {
 	margin-right: -40% !important;
 	width: 35% !important;
 }
@@ -380,4 +380,4 @@ cite {
 .nsf {
 	margin-right: -40% !important;
 	width: 35% !important;
-}
+} */
