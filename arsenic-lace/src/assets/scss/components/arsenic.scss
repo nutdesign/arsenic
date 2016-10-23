@@ -91,7 +91,7 @@ header {
 .program-name {
     font-family: $header-font-family;
     font-weight: $global-weight-bold;
-    font-size: rem-calc(28.5);
+    font-size: rem-calc(22);
     line-height: 1.1;
     margin-top: 2rem;
     margin-bottom: .5rem;
@@ -212,6 +212,7 @@ nav {
 
 
 blockquote {
+    font-size: 110.5%;
     font-style: italic;
     // border-top: .3em solid lighten($primary-color, 25%);
     border-top: .3em solid $tertiary-color;
@@ -239,7 +240,8 @@ cite {
     margin-top: 1em;
 }
 
-.callout.large {
+.callout {
+
     @include breakpoint(medium) {
         margin-left: -16.66667%;
         margin-right: -16.66667%;

@@ -293,11 +293,11 @@ $callout-background: #dda845;
 $callout-background-fade: 5%;
 // $callout-border: 1px solid rgba($black, 0.25);
 $callout-border: none;
-$callout-margin: 2rem 0;
-$callout-padding: 1rem;
+$callout-margin: 2rem -1.58824rem;
+$callout-padding: 2rem 1.58824rem 3em 1.58824rem;
 $callout-font-color: #343434;
 $callout-font-color-alt: $body-background;
-$callout-radius: 20px;
+// $callout-radius: 20px;
 $callout-link-tint: 30%;
 
 // 14. Close Button
