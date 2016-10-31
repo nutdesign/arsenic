@@ -183,7 +183,7 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $black;
+$blockquote-color: #003f42;
 $blockquote-padding: rem-calc(24 20 0 19);
 $blockquote-border: none;
 $cite-font-size: 75%;
@@ -288,8 +288,8 @@ $buttongroup-expand-max: 6;
 // 13. Callout
 // -----------
 
-// $callout-background: #d7aa4c;
-$callout-background: #dda845;
+$callout-background: $light-gray;
+// $callout-background: #dda845;
 $callout-background-fade: 5%;
 // $callout-border: 1px solid rgba($black, 0.25);
 $callout-border: none;
