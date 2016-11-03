@@ -21,13 +21,12 @@ h6 {
     margin-top: 1.5rem;
 }
 
-h2
- {
+h2 {
     @include breakpoint(medium) {
-        margin-left: -16.66667%;
         margin-right: -16.66667%;
-        padding-left: .9375rem;
+        margin-left: -16.66667%;
         padding-right: .9375rem;
+        padding-left: .9375rem;
     }
 }
 
@@ -40,8 +39,8 @@ h2 {
 }
 
 h3 {
-    color: $secondary-color; 
-/*     .callout & {
+    color: $secondary-color;
+    /*     .callout & {
     color: darken($secondary-color, 15%)
     } */
 }
@@ -64,14 +63,14 @@ h3 {
     }
 }
 
-@include breakpoint(large only)  {
+@include breakpoint(large only) {
     html {
         font-size: 118.8%;
     }
-} 
+}
 
 
-[role="menuitem"] a {
+[role='menuitem'] a {
     color: $black;
 }
 
@@ -90,24 +89,28 @@ header {
 
 .program-name {
     font-family: $header-font-family;
-    font-weight: $global-weight-bold;
     font-size: rem-calc(28);
+    font-weight: $global-weight-bold;
     line-height: 1.1;
+
     margin-top: 2rem;
     /* margin-bottom: .5rem; */
     /* padding: 0 2rem; */
+
     color: $tertiary-color;
     /* text-transform: uppercase; */
 }
 
 .program-title {
     font-family: $header-font-family;
-    font-weight: $global-weight-bold;
     font-size: rem-calc(21);
+    font-weight: $global-weight-bold;
     line-height: 1.25;
+
     margin-top: 0;
     margin-bottom: .5em;
     /* padding: 0 2rem; */
+
     color: $secondary-color;
 }
 
@@ -115,6 +118,7 @@ header {
     font-family: $header-font-family;
     font-size: rem-calc(15);
     line-height: 1.25;
+
     margin-top: 0;
     margin-bottom: .5em;
     /* padding: 0 2rem; */
@@ -122,23 +126,39 @@ header {
 
 // nav
 
+.nav-container {
+    padding: 0 1.88235rem;
+
+    background-color: #dda845;
+    &.row {
+        max-width: none;
+    }
+}
+
 nav {
     font-family: $header-font-family;
     font-weight: $global-weight-bold;
+
+    @include breakpoint(xlarge) {
+        text-align: center; 
+    }
 }
 
-/*.menu {
-    display: flex;
-     justify-content: center; 
-}*/
+
 
 /*.is-dropdown-submenu {
     display: none;
 }*/
 
 .menu > li {
-    vertical-align: top;
     font-size: rem-calc(16);
+
+    vertical-align: top;
+
+    @include breakpoint(xlarge) {
+        font-size: rem-calc(14);
+       display: inline-block !important; 
+    }
 }
 
 /*.primary-menu-items > li {
@@ -149,26 +169,31 @@ nav {
 // via https://zurb.com/expo/lessons/how-to-re-create-top-bar-with-foundation-6 
 
 .title-bar {
-  background: $black;
-  margin: 0 -2rem;
-  padding: 0.9rem;
-  font-family: $header-font-family;
-  font-weight: $global-weight-bold;
+    font-family: $header-font-family;
+    font-weight: $global-weight-bold;
+
+    margin: 0 -2rem;
+    padding: .9rem;
+
+    background: $black;
 }
 
 .footer {
-    /* color: transparentize(255, 255, 255, .3); */
-    color: transparentize(#fff, .3);
     font-family: $header-font-family;
-    font-weight: $global-weight-normal;
     font-size: $pagination-font-size;
-    background-color: $tertiary-color;
+    font-weight: $global-weight-normal;
+
+    margin-top: 5em;
     /*border-top: .3em solid #006268; */
     padding-top: 2em;
-    margin-top: 5em;
+    /* color: transparentize(255, 255, 255, .3); */
+
+    color: transparentize(#fff, .3);
+    background-color: $tertiary-color;
     a {
-        color: #fff;
         font-weight: 700;
+
+        color: #fff;
         /* text-decoration: underline; */
     }
 }
@@ -186,24 +211,27 @@ nav {
 
 .intro/* , 
 .footer */ {
-    // background-color: $primary-color;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7e9b47+0,657e39+50,52662e+100 */
-    background: #657e39; /* Old browsers */
+    margin: 0 0 1rem 0;
     // background: -moz-linear-gradient(top,  #7e9b47 0%, #657e39 50%, #52662e 100%); /* FF3.6-15 */
     // background: -webkit-linear-gradient(top,  #7e9b47 0%,#657e39 50%,#52662e 100%); /* Chrome10-25,Safari5.1-6 */
     // background: linear-gradient(to bottom,  #7e9b47 0%,#657e39 50%,#52662e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e9b47', endColorstr='#52662e',GradientType=0 ); /* IE6-9 */
     padding: 1rem 1rem 2rem 1rem;
-    margin: 0 0 1rem 0;
-   h1 {
-        text-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+    // background-color: $primary-color;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7e9b47+0,657e39+50,52662e+100 */
+
+    background: #657e39; /* Old browsers */
+    h1 {
         line-height: 1.175;
-    } 
+
+        text-shadow: rgba(0,0,0,.5) 1px 1px 1px;
+    }
 }
 
 .lead {
-    color: $white;
     font-weight: 700;
+
+    color: $white;
     // font-family: 'FF Tisa OT Italic';
 }
 
@@ -223,40 +251,44 @@ blockquote {
     font-size: 110.5%;
     font-style: italic;
     // border-top: .3em solid lighten($primary-color, 25%);
+
     border-top: .3em solid #dfac4e;
 }
 
 @include breakpoint(large) {
     blockquote {
-        margin: 2.5rem -16.66667% 2rem ;
         font-size: 178.125%;
+
+        margin: 2.5rem -16.66667% 2rem ;
     }
 }
- 
+
 @include breakpoint(medium only) {
     blockquote {
-        margin: 2.5rem -6% 2rem ;
-        padding: 0.9375rem 0;
         font-size: 140%;
+
+        margin: 2.5rem -6% 2rem ;
+        padding: .9375rem 0;
     }
 }
 
 
 cite {
     font-style: normal;
-    text-align: right;
+
     margin-top: 1em;
+
+    text-align: right;
 }
 
 .callout {
-
     @include breakpoint(medium) {
-        margin-left: -16.66667%;
         margin-right: -16.66667%;
-        padding-left:  16.66667%;
+        margin-left: -16.66667%;
         padding-right: 16.66667%;
+        padding-left: 16.66667%;
     }
-} 
+}
 
 // main content
 //---------------
@@ -264,7 +296,7 @@ cite {
 .main-content {
     margin-bottom: 3rem;
     padding: 0 1rem;
-/*     shape-outside: polygon(nonzero, 1009px 143px, 1034px 102px, 1031px 46px, 1068px 3px, 1080px -55px, 1166px -55px, 1152px -13px, 1192px 49px, 1175px 98px, 1193px 144px, 1190px 463px, 993px 463px); */
+    /*     shape-outside: polygon(nonzero, 1009px 143px, 1034px 102px, 1031px 46px, 1068px 3px, 1080px -55px, 1166px -55px, 1152px -13px, 1192px 49px, 1175px 98px, 1193px 144px, 1190px 463px, 993px 463px); */
 }
 
 // backgrounds
@@ -325,67 +357,67 @@ cite {
 // TO-DO: Each of these probably need tuned @media specifications
 
 /* .bodies {
-	margin-right: -40% !important;
-	width: 35% !important;
+    margin-right: -40% !important;
+    width: 35% !important;
 }
 
 .babybottle {
-	margin-right: -40% !important;
-	width: 25% !important;
+    margin-right: -40% !important;
+    width: 25% !important;
 }
 
 .gluten-free {
-	margin-right: -40% !important;
-	width: 25% !important;
+    margin-right: -40% !important;
+    width: 25% !important;
 }
 
 .cigs {
-	margin-right: -40% !important;
-	width: 30% !important;
+    margin-right: -40% !important;
+    width: 30% !important;
 }
 
 .playstructure {
-	margin-right: -40% !important;
-	width: 80% !important;
+    margin-right: -40% !important;
+    width: 80% !important;
 }
 
 .factory {
-	margin-right: -40% !important;
-	width: 35% !important;
+    margin-right: -40% !important;
+    width: 35% !important;
 }
 
 .juice {
-	margin-right: -40% !important;
-	width: 30% !important;
+    margin-right: -40% !important;
+    width: 30% !important;
 }
 
 .ricebowl {
-	margin-right: -40% !important;
-	width: 50% !important;
+    margin-right: -40% !important;
+    width: 50% !important;
 }
 
 .hijiki {
-	margin-right: -40% !important;
-	width: 30% !important;
+    margin-right: -40% !important;
+    width: 30% !important;
 }
 
 .chicken {
-	margin-right: -40% !important;
-	width: 25% !important;
+    margin-right: -40% !important;
+    width: 25% !important;
 }
 
 .beer {
-	margin-right: -40% !important;
-	width: 30% !important;
+    margin-right: -40% !important;
+    width: 30% !important;
 }
 
 .trowel {
-	margin-right: 0 !important;
-	width: 100% !important;
+    margin-right: 0 !important;
+    width: 100% !important;
             float: none !important; 
 }
 
 .nsf {
-	margin-right: -40% !important;
-	width: 35% !important;
+    margin-right: -40% !important;
+    width: 35% !important;
 } */
