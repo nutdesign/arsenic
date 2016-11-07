@@ -1,3 +1,42 @@
+MJY updates as of Nov 7
+
+Using the validator, cleaned up some template/include organization. The basic templates validate. Some content pages have some issues based on content markup, I'll get to those later.
+
+To-do list as of 5:00 pm Nov 7:
+
+* The NIH logo might want a little more top-padding in the footer.
+
+* Using this map image as an example, what are the preferred sizes for inline images? No captions planned at this time.  
+http://yacavone.com/clients/toxicmetalsarsenic/draftsix/health/exposure.html
+
+* HTML markup to link header text (link to home). Previously: Tried to link the header text to the home page, but this changes the color to the link styling. Tried briefly to fix this, couldn't figure it out. Thus: Need to link all three lines of header text to href="1" and maintain their current colors.
+
+* The callout-2 div doesn't have a background color on mobile -- appears the same as regular body text. http://yacavone.com/clients/toxicmetalsarsenic/draftsix/health/children.html 
+
+* Getting some "flash of unstyled content" when the page initially loads, due to menu bar. I thought I saw something about how to fix that, but can't find it now...
+
+
+Notes from Lauire, prior to today's work:
+
+* "Name Arsenic and You still looks too small. Make all Caps? Or make it bigger?"
+
+* "Pull quote font size compared to size of font for regular text and headings" I assume she means she thinks it's too big
+
+* "I would not reduce the text font size."
+
+* "Links seem to show up well against a background color as opposed to the white—but white may be better for other reasons." She suggests that more saturated link colors would be better.
+
+* "The current Title “Understanding Arsenic” (which will become Arsenic and You) font size is too small compared to the first Header on the page (Welcome to Understanding Arsenic)." I suggested that the Title might be the right size, because visitors come for the information -- the title is for credibility and orientation, not promotion. 
+
+* "Could you reduce the font size of the First Header (Welcome to Arsenic and You)? And if that means all the other sub-header size types need to be reduced as well I think that is fine." I'm not sure about this, but add it here for completeness. 
+
+* "I would not reduce the text font size." I agree this is either done or in the final ballpark depending on what other font changes happen. 
+
+
+
+
+
+
 MJY updates as of Aug 31; site re-org for testing
 
 
@@ -24,15 +63,15 @@ done * Mobile: Tighten line-height on mobile headlines
 
 * Maybe: Color bar at bottom of pull-quote (to match color bar at top)
 
-* Recommendation box margin / padding
+done * Recommendation box margin / padding
 
-* Recommendation box full-width color?
+done * Recommendation box full-width color?
 
-* Footer styling
+done * Footer styling
 
-* Add recommendation disclaimer to the footer (“This information is based on current scientific knowledge about arsenic in food, water, and other sources. It includes evidence-based recommendations to help you reduce exposure to arsenic. While some may not be appropriate or possible for everyone, follow the suggestions that make sense for you. Any step taken to reduce exposure to arsenic makes a difference in lowering your chances of arsenic-related health risks.”
+done * Add recommendation disclaimer to the footer (“This information is based on current scientific knowledge about arsenic in food, water, and other sources. It includes evidence-based recommendations to help you reduce exposure to arsenic. While some may not be appropriate or possible for everyone, follow the suggestions that make sense for you. Any step taken to reduce exposure to arsenic makes a difference in lowering your chances of arsenic-related health risks.”
 
-* Color bar behind main menu bar?
+done * Color bar behind main menu bar?
 
 * Website header text styling / line-height / etc
 
@@ -40,9 +79,9 @@ done * Mobile: Tighten line-height on mobile headlines
 
 --- 
 
-* Add sponsor image to footer
+done * Add sponsor image to footer
 
-* Add additional tag line to header?
+done * Add additional tag line to header?
 
 
 ===
@@ -52,18 +91,5 @@ Laurie goals for project advisory team review in Nov:
 * Our design draft
 * Additional / improved color scheme
 *
-
-
-=====
-
-Laurie review call, Fri 10/21
-
-* Shortest page: Meat & animal products
-* Longest page: Rice
-* Review bullets on rice page (2nd level bullets?)
-* Mobile: should long pages have "read more..." or expand/collapse or sub-heads as anchors at top (mobile only: "on this page")
-* Look at Pivot site together next week? scheduled for thursday.
-* how to review design changes: don't go too far down a road without feedback
-* 
 
 
