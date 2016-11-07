@@ -158,6 +158,7 @@ nav {
     @include breakpoint(xlarge) {
         font-size: rem-calc(14);
        display: inline-block !important; 
+       text-align: left;
     }
 }
 
@@ -188,7 +189,7 @@ nav {
     padding-top: 2em;
     /* color: transparentize(255, 255, 255, .3); */
 
-    color: transparentize(#fff, .3);
+    color: transparentize(#fff, .2);
     background-color: $tertiary-color;
     a {
         font-weight: 700;
@@ -196,6 +197,11 @@ nav {
         color: #fff;
         /* text-decoration: underline; */
     }
+}
+
+.nih-logo {
+    max-width: 320px;
+    opacity: 0.8;
 }
 
 // end mjy
@@ -283,10 +289,35 @@ cite {
 
 .callout {
     @include breakpoint(medium) {
-        margin-right: -16.66667%;
-        margin-left: -16.66667%;
+        position: relative;
+        right: 50%;
+        left: 50%;
+        /*         margin-right: -50vw;
+        margin-left: -50vw;
         padding-right: 16.66667%;
-        padding-left: 16.66667%;
+        padding-left: 16.66667%; */
+
+        width: 100vw;
+        margin-right: -50vw;
+        margin-left: -50vw;
+        padding-left: 50%;
+        padding-left: 50%;
+    }
+}
+
+
+.callout-2 {
+    @include breakpoint(large) {
+        font-size: 80%;
+
+        float: right;
+
+        width: 50%;
+        margin-right: -30%;
+        margin-left: 10%;
+        padding: 2% 5%;
+
+        background-color: #ccc;
     }
 }
 
@@ -350,74 +381,3 @@ cite {
    // shape-outside: polygon(cp(21px, 168px) cp(201px, 534px), cp(58px, 168px) cp(157px, 534px), 45px 135px, 47px 84px, 86px 63px, 109px -5px, 258px -3px, 252px 545px, 44px 541px, 10px 513px);
 } */
 
-
-// Specific classes for .illustrations
-// Named based on image rather than page, in case images are moved between pages 
-
-// TO-DO: Each of these probably need tuned @media specifications
-
-/* .bodies {
-    margin-right: -40% !important;
-    width: 35% !important;
-}
-
-.babybottle {
-    margin-right: -40% !important;
-    width: 25% !important;
-}
-
-.gluten-free {
-    margin-right: -40% !important;
-    width: 25% !important;
-}
-
-.cigs {
-    margin-right: -40% !important;
-    width: 30% !important;
-}
-
-.playstructure {
-    margin-right: -40% !important;
-    width: 80% !important;
-}
-
-.factory {
-    margin-right: -40% !important;
-    width: 35% !important;
-}
-
-.juice {
-    margin-right: -40% !important;
-    width: 30% !important;
-}
-
-.ricebowl {
-    margin-right: -40% !important;
-    width: 50% !important;
-}
-
-.hijiki {
-    margin-right: -40% !important;
-    width: 30% !important;
-}
-
-.chicken {
-    margin-right: -40% !important;
-    width: 25% !important;
-}
-
-.beer {
-    margin-right: -40% !important;
-    width: 30% !important;
-}
-
-.trowel {
-    margin-right: 0 !important;
-    width: 100% !important;
-            float: none !important; 
-}
-
-.nsf {
-    margin-right: -40% !important;
-    width: 35% !important;
-} */
