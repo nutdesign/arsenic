@@ -36,10 +36,11 @@ h1 {
 
 h2 {
     margin-bottom: 1em;
+    color: ##b82e00;
 }
 
 h3 {
-    color: $secondary-color;
+    // color: $secondary-color;
     /*     .callout & {
     color: darken($secondary-color, 15%)
     } */
@@ -202,6 +203,7 @@ nav {
 .nih-logo {
     max-width: 320px;
     opacity: 0.8;
+    margin: 1em 0 2em 0;
 }
 
 // end mjy
