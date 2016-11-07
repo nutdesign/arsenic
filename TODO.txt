@@ -18,19 +18,21 @@ http://yacavone.com/clients/toxicmetalsarsenic/draftsix/health/exposure.html
 
 Notes from Lauire, prior to today's work:
 
-* "Name Arsenic and You still looks too small. Make all Caps? Or make it bigger?"
+* "Pull quote font size compared to size of font for regular text and headings" I assume she means she thinks it's too big. I like it, but I’m sure it could be somewhat smaller too. 
 
-* "Pull quote font size compared to size of font for regular text and headings" I assume she means she thinks it's too big
-
-* "I would not reduce the text font size."
+* "I would not reduce the [body] text font size.” I agree. 
 
 * "Links seem to show up well against a background color as opposed to the white—but white may be better for other reasons." She suggests that more saturated link colors would be better.
 
-* "The current Title “Understanding Arsenic” (which will become Arsenic and You) font size is too small compared to the first Header on the page (Welcome to Understanding Arsenic)." I suggested that the Title might be the right size, because visitors come for the information -- the title is for credibility and orientation, not promotion. 
+* "The current Title “Arsenic and You” font size is too small compared to the first Header on the page (Welcome to Arsenic and You ." I suggested that the Title might be the right size, because visitors come for the information -- the title is for credibility and orientation, not promotion. 
 
 * "Could you reduce the font size of the First Header (Welcome to Arsenic and You)? And if that means all the other sub-header size types need to be reduced as well I think that is fine." I'm not sure about this, but add it here for completeness. 
 
 * "I would not reduce the text font size." I agree this is either done or in the final ballpark depending on what other font changes happen. 
+
+— 
+
+
 
 
 
