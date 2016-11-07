@@ -305,6 +305,7 @@ cite {
         width: 50%;
         margin-right: -30%;
         margin-left: 10%;
+        margin-bottom: 2em;
         padding: 2% 5%;
 
         background-color: #ccc;
@@ -321,29 +322,6 @@ cite {
     /*     shape-outside: polygon(nonzero, 1009px 143px, 1034px 102px, 1031px 46px, 1068px 3px, 1080px -55px, 1166px -55px, 1152px -13px, 1192px 49px, 1175px 98px, 1193px 144px, 1190px 463px, 993px 463px); */
 }
 
-// backgrounds
-//---------------
-
-/* .bb {
-     &:after {
-    content: ""; 
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;  
-    background-image: url(../img/babybottle.svg);
-    // background-color: red;
-    background-position: bottom 10% right 3%;
-    background-size: 10%;
-     background-repeat: no-repeat ;               
-     background-attachment: fixed;                   
-    filter: hue-rotate(100deg) saturate(1);
-    // clip-path: polygon(0 0, 80% 0, 35% 50%, 0 12%);
-
-     } 
-} */
 
 // calculate the percentage of container
 @function calc-percent($target, $container) {
