@@ -4,7 +4,7 @@ Using the validator, cleaned up some template/include organization. The basic te
 
 To-do list as of 5:00 pm Nov 7:
 
-* The NIH logo might want a little more top-padding in the footer.
+done * The NIH logo might want a little more top-padding in the footer.
 
 * Using this map image as an example, what are the preferred sizes for inline images? No captions planned at this time.  
 http://yacavone.com/clients/toxicmetalsarsenic/draftsix/health/exposure.html
@@ -20,13 +20,13 @@ Notes from Lauire, prior to today's work:
 
 * "Pull quote font size compared to size of font for regular text and headings" I assume she means she thinks it's too big. I like it, but I’m sure it could be somewhat smaller too. 
 
-* "Links seem to show up well against a background color as opposed to the white." She suggests that more saturated link colors would be better.
+done * "Links seem to show up well against a background color as opposed to the white." She suggests that more saturated link colors would be better.
 
-* "The current Title “Arsenic and You” font size is too small compared to the first Header on the page (Welcome to Arsenic and You ." I suggested that the Title might be the right size, because visitors come for the information -- the title is for credibility and orientation, not promotion. 
+done * "The current Title “Arsenic and You” font size is too small compared to the first Header on the page (Welcome to Arsenic and You)." I suggested that the Title might be the right size, because visitors come for the information -- the title is for credibility and orientation, not promotion. 
 
-* "Could you reduce the font size of the First Header (Welcome to Arsenic and You)? And if that means all the other sub-header size types need to be reduced as well I think that is fine." I'm not sure about this, but add it here for completeness. 
+done * "Could you reduce the font size of the First Header (Welcome to Arsenic and You)? And if that means all the other sub-header size types need to be reduced as well I think that is fine." I'm not sure about this, but add it here for completeness. 
 
-* "I would not reduce the text font size." I agree this is either done or in the final ballpark depending on what other font changes happen. 
+done * "I would not reduce the text font size." I agree this is either done or in the final ballpark depending on what other font changes happen. 
 
 — 
 
