@@ -81,6 +81,7 @@ a {
 
 header {
     padding: 0 1rem;
+    background-color: #003b4d;
 }
 
 // logotype
@@ -90,7 +91,7 @@ header {
     font-size: rem-calc(28);
     font-weight: $global-weight-bold;
     line-height: 1.1;
-color: $black;
+    color: $white;
     margin-top: 2rem;
 }
 
@@ -101,25 +102,26 @@ color: $black;
     line-height: 1.25;
 
     margin-top: 0;
-    margin-bottom: .5em;
-
-    color: #b82e00;
+    margin-bottom: 0;
+color: $white;
+    /* color: transparentize($white, .2); */
 }
 
 .program-sponsor {
     font-family: $header-font-family;
-    font-size: rem-calc(15);
+    font-size: rem-calc(13);
     line-height: 1.25;
 
     margin-top: 0;
-    margin-bottom: .5em;
+    margin-bottom: 1.5em;
+    color: #fbf4d7;
 }
 
 // nav
 
 .nav-container {
     padding: 0 1.88235rem;
-
+border-top: 1px solid #00778e;
     background-color: #005670;
     &.row {
         max-width: none;
@@ -159,7 +161,7 @@ nav {
     margin: 0 -2rem;
     padding: .9rem;
 
-    background: $black;
+    background: #005670;
 }
 
 .footer {
@@ -258,12 +260,13 @@ cite {
 }
 
 .callout {
+    background-color: #ece5d7;
     @include breakpoint(medium) {
         margin-left: -50vw;
         margin-right: -50vw;
         padding-left: 50vw;
         padding-right: 50vw;
-        background-color: #f7f6e9;
+        /* background-color: #f7f6e9; */
     }
 }
 
