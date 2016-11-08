@@ -50,7 +50,8 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
  // primary: #71a520,
-secondary: #b75d00,
+// secondary: #b75d00,
+secondary: #c6483b,
   primary: #657e39,
   //  secondary: #AB2200,
   tertiary: #2f7e86,
@@ -144,7 +145,7 @@ $header-sizes: (
     'h4': 21,
     'h5': 16,
     'h6': 12, */
-    'h1': 46,
+    'h1': 40,
     'h2': 31.25,
     'h3': 28.5,
     'h4': 20,
@@ -183,11 +184,12 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: #003f42;
+$blockquote-color: #004f68;
 $blockquote-padding: rem-calc(24 20 0 19);
 $blockquote-border: none;
 $cite-font-size: 75%;
-$cite-color: adjust-color($primary-color, $hue: -7%, $saturation: 62%, $lightness: -17%);
+// $cite-color: adjust-color($primary-color, $hue: -7%, $saturation: 62%, $lightness: -17%);
+$cite-color: #5f8c46;
 $keystroke-font: $font-family-monospace;
 $keystroke-color: $black;
 $keystroke-background: $light-gray;
@@ -337,7 +339,7 @@ $dropdown-sizes: (
 // -----------------
 
 $dropdownmenu-arrows: true;
-$dropdownmenu-arrow-color: $secondary-color;
+$dropdownmenu-arrow-color: #f4b643;
 $dropdownmenu-min-width: 200px;
 $dropdownmenu-background: $white;
 $dropdownmenu-border: none;
