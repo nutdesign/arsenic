@@ -29,7 +29,7 @@ h2 {
         padding-left: .9375rem;
     }
 }
-
+ 
 h1 {
     color: $black;
 }
@@ -81,14 +81,15 @@ a {
 
 header {
     padding: 0 1rem;
-    background-color: #003b4d;
+    // background-color: #003b4d;
+    background-color: #2e84b3;
 }
 
 // logotype
 
 .program-name {
     font-family: $header-font-family;
-    font-size: rem-calc(28);
+    font-size: rem-calc(34);
     font-weight: $global-weight-bold;
     line-height: 1.1;
     color: $white;
@@ -109,20 +110,22 @@ color: $white;
 
 .program-sponsor {
     font-family: $header-font-family;
-    font-size: rem-calc(13);
+    font-size: rem-calc(14);
     line-height: 1.25;
 
     margin-top: 0;
     margin-bottom: 1.5em;
-    color: #fbf4d7;
+    // color: #fbf4d7;
+    color: #123f57;
 }
 
 // nav
 
 .nav-container {
     padding: 0 1.88235rem;
-border-top: 1px solid #00778e;
-    background-color: #005670;
+		border-top: 1px solid #00778e;
+    // background-color: #005670;
+    background-color: #123f57;
     &.row {
         max-width: none;
     }
@@ -137,17 +140,33 @@ nav {
     }
 }
 
+.menu ul {
+	background-color: #ece5d7;
+}
+
+.menu ul.mjy-test {
+	background-color: #f4b643;
+}
+
+.menu ul.mjy-test2 {
+	background-color: #8fb253;
+}
+
 
 .menu > li {
     font-size: rem-calc(16);
-
     vertical-align: top;
 
     @include breakpoint(xlarge) {
-        font-size: rem-calc(14);
-       display: inline-block !important; 
-       text-align: left;
+      font-size: rem-calc(14);
+      display: inline-block !important; 
+      text-align: left;
     }
+    
+.menu a {
+  color: $black;
+	}
+
 }
 
 
@@ -209,8 +228,7 @@ nav {
 
 .lead {
     font-weight: 700;
-
-    color: #808080;
+    color: #7d7d7d;
 }
 
 /* .main-content-body > p:first-of-type:first-letter { 
@@ -226,7 +244,7 @@ nav {
 
 
 blockquote {
-    font-size: 110.5%;
+    font-size: 105%;
     font-style: italic;
     // border-top: .3em solid lighten($primary-color, 25%);
 
@@ -271,9 +289,10 @@ cite {
 }
 
 .callout-2 {
+    background-color: #8fb253; 
     @include breakpoint(large) {
         font-size: 80%;
-color: $black;
+				color: $black;
         float: right;
 
         width: 50%;
@@ -282,12 +301,34 @@ color: $black;
         margin-bottom: 2em;
         padding: 2% 5%;
 
-        background-color: #8fb253;
+        // background-color: #8fb253;
         /* border: 1px solid $light-gray; */
         h4 {
             color: #fff;
         }
     }
+    @include breakpoint(small) {        
+        margin: $callout-margin;
+        padding: $callout-padding;
+        padding-bottom: 1em;
+
+        /* background-color: #f7f6e9; */
+    }
+}
+
+figure {
+	// border: thin solid $light-gray;
+	margin: 2em 0 1em;
+	text-align: center;
+}
+
+figcaption {
+	background-color: #f9e2b6;
+	padding: 1em 2em;
+	margin-top: 1em;
+	font-size: 90%;
+	font-style: italic;
+	text-align: left;
 }
 
 // main content
