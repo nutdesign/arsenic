@@ -44,7 +44,7 @@
 
 // 1. Global
 // ---------
-
+ 
 $global-font-size: 106.25%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -145,7 +145,7 @@ $header-sizes: (
     'h4': 21,
     'h5': 16,
     'h6': 12, */
-    'h1': 37,
+    'h1': 36,
     'h2': 31.25,
     'h3': 28.5,
     'h4': 20,
@@ -199,7 +199,7 @@ $abbr-underline: 1px dotted $black;
 
 // 5. Typography Helpers
 // ---------------------
-
+ 
 $lead-font-size: $global-font-size * 1.04;
 $lead-lineheight: 1.6;
 $subheader-lineheight: 1.4;
@@ -232,7 +232,7 @@ $accordion-content-background: $white;
 $accordion-content-border: 1px solid $light-gray;
 $accordion-content-color: foreground($accordion-background, $primary-color);
 $accordion-content-padding: 1rem;
-
+ 
 // 8. Accordion Menu
 // -----------------
 
@@ -289,7 +289,7 @@ $buttongroup-expand-max: 6;
 
 // 13. Callout
 // -----------
-
+  
 $callout-background: $light-gray;
 // $callout-background: #dda845;
 $callout-background-fade: 5%;
@@ -301,7 +301,7 @@ $callout-font-color: #343434;
 $callout-font-color-alt: $body-background;
 // $callout-radius: 20px;
 $callout-link-tint: 30%;
-
+ 
 // 14. Close Button
 // ----------------
 
@@ -337,7 +337,7 @@ $dropdown-sizes: (
 
 // 17. Dropdown Menu
 // -----------------
-
+  
 $dropdownmenu-arrows: true;
 $dropdownmenu-arrow-color: #f4b643;
 $dropdownmenu-min-width: 200px;
@@ -404,7 +404,7 @@ $label-radius: $global-radius;
 $mediaobject-margin-bottom: $global-margin;
 $mediaobject-section-padding: $global-padding;
 $mediaobject-image-width-stacked: 100%;
-
+ 
 // 22. Menu
 // --------
 
@@ -455,7 +455,7 @@ $orbit-control-zindex: 10;
 
 // 26. Pagination
 // --------------
-
+    
 $pagination-font-size: rem-calc(14);
 $pagination-margin-bottom: $global-margin;
 $pagination-item-color: $black;
