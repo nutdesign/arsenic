@@ -1,3 +1,36 @@
+MJY updates as of Nov 11
+
+* Extensively updated the combined punch list Word doc. 
+
+* Added a draft sitemap page (http://yacavone.com/clients/toxicmetalsarsenic/draftsix/sitemap.html)
+
+* Added callout-2 to several pages.
+
+* Adjusted font sizes of the title, program sponsor, h1 page heading, and pull quote.
+
+* Changed color of program sponsor.
+
+* Added three example colors for navigation menu backgrounds.
+
+* Added sub-bullets to several pages.
+
+* Updated the sidebar callout to show the green background on mobile.
+
+* Put many images inside <figure> tag. But not all! What's the right approach here? 
+
+* Fist cut at <figcaption> tag.  
+
+* Made the lead overview text slightly darker.
+
+* 
+
+
+Alternate colors
+
+Header: #2e84b3
+nav-container: #123f57
+
+
 MJY updates as of Nov 7
 
 Using the validator, cleaned up some template/include organization. The basic templates validate. Some content pages have some issues based on content markup, I'll get to those later.
