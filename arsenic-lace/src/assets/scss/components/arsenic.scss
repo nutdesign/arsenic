@@ -309,18 +309,25 @@ cite {
 }
 
 figure {
-	// border: thin solid $light-gray;
-	margin: 2em 0 1em;
-	text-align: center;
+    display: table;
+
+    margin: 2em 0 1em;
+
 }
 
 figcaption {
-	background-color: #f9e2b6;
-	padding: 1em 2em;
-	margin-top: 1em;
-	font-size: 90%;
-	font-style: italic;
-	text-align: left;
+    font-size: 90%;
+    font-style: italic;
+
+    display: table-caption;
+
+    padding: 1em 2em;
+
+    caption-side: bottom;
+
+    text-align: left;
+
+    background-color: #f9e2b6;
 }
 
 // main content
