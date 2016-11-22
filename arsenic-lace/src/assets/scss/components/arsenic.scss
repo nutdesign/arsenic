@@ -35,7 +35,6 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 1em;
     color: #b82e00;
 }
 
@@ -312,6 +311,9 @@ cite {
     }
 }
 
+// images
+//---------------
+
 figure {
     display: table;
 
@@ -330,8 +332,30 @@ figcaption {
     caption-side: bottom;
 
     text-align: left;
+    border-bottom: 1px solid #b82e00;
 
-    background-color: #f9e2b6;
+/*     background-color: #f9e2b6; */
+}
+
+.left {
+    float: left;
+    margin-right: 0.88235rem;
+    margin-bottom: .5rem;
+}
+
+.right {
+    float: right;
+    margin-left: 0.88235rem;
+    margin-bottom: .5rem;
+}
+
+.end {
+    margin-right: 0;
+}
+
+.wide {
+    margin-right: -15%;
+    margin-left: -15%;
 }
 
 // main content
