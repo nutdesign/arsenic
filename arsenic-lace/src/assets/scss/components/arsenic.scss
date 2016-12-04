@@ -29,7 +29,7 @@ h2 {
         padding-left: .9375rem;
     }
 }
- 
+
 h1 {
     color: $black;
 }
@@ -65,14 +65,18 @@ h2 {
 
 [role='menuitem'] a {
     color: #fff;
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 a {
-    word-wrap: break-word;
     font-weight: bold;
-  &:hover {
-    text-decoration: underline;
-  }
+
+    word-wrap: break-word;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 // header
@@ -80,8 +84,8 @@ a {
 
 header {
     padding: 0 1rem;
-    // background-color: #003b4d;
-    background-color: #2e84b3;
+
+    background-color: #0081a8;
 }
 
 // logotype
@@ -91,8 +95,10 @@ header {
     font-size: rem-calc(34);
     font-weight: $global-weight-bold;
     line-height: 1.1;
-    color: $white;
+
     margin-top: 2rem;
+
+    color: $white;
 }
 
 .program-title {
@@ -103,7 +109,8 @@ header {
 
     margin-top: 0;
     margin-bottom: 0;
-color: $white;
+
+    color: $white;
     /* color: transparentize($white, .2); */
 }
 
@@ -114,7 +121,7 @@ color: $white;
 
     margin-top: 0;
     margin-bottom: 1.5em;
-    // color: #fbf4d7;
+
     color: #123f57;
 }
 
@@ -122,9 +129,8 @@ color: $white;
 
 .nav-container {
     padding: 0 1.88235rem;
-		border-top: 1px solid #00778e;
-    // background-color: #005670;
-    background-color: #123f57;
+
+    background-color: #004f68;
     &.row {
         max-width: none;
     }
@@ -135,29 +141,35 @@ nav {
     font-weight: $global-weight-bold;
 
     @include breakpoint(xlarge) {
-        text-align: center; 
+        text-align: center;
     }
 }
 
 .menu ul {
-	background-color: #ece5d7;
+    opacity: .95;
+    // background-color: #123f57;
+    background-color: #004f68;
 }
- 
+
 
 .menu > li {
     font-size: rem-calc(16);
+
     vertical-align: top;
 
     @include breakpoint(xlarge) {
-      font-size: rem-calc(14);
-      display: inline-block !important; 
-      text-align: left;
-    }
-    
-.menu a {
-  color: $black;
-	}
+        font-size: rem-calc(14);
 
+        display: inline-block !important;
+
+        text-align: left;
+    }
+    .menu a {
+        color: #f4b643;
+        &:hover {
+            color: #fff;
+        }
+    }
 }
 
 
@@ -180,9 +192,7 @@ nav {
     font-weight: $global-weight-normal;
 
     margin-top: 5em;
-
     padding-top: 2em;
-
 
     color: transparentize(#fff, .2);
     background-color: #004f68;
@@ -190,18 +200,18 @@ nav {
         font-weight: 700;
 
         color: #fff;
-
     }
 }
 
 .footer a.producedBy {
-	font-size: 80%;
+    font-size: 80%;
 }
 
 .nih-logo {
     max-width: 320px;
-    opacity: 0.8;
     margin: 1em 0 2em 0;
+
+    opacity: .8;
 }
 
 
@@ -210,19 +220,17 @@ nav {
 
 .intro {
     margin: 0;
-
     padding: 1rem 1rem 0 1rem;
-
-   /*  background: $light-gray; */ 
+    /*  background: $light-gray; */
     h1 {
         line-height: 1.175;
-
-       /*  text-shadow: rgba(0,0,0,.5) 1px 1px 1px; */
+        /*  text-shadow: rgba(0,0,0,.5) 1px 1px 1px; */
     }
 }
 
 .lead {
     font-weight: 700;
+
     color: #717171;
 }
 
@@ -273,41 +281,51 @@ cite {
 }
 
 .callout {
-    background-color: #ece5d7;
+    opacity: .9;
+    // color: #2f2f2f;
+    color: #fff;
+    // background-color: #ece5d7;
+    // background-color: #d6c67f;
+    background-color: #004f68;
+
     @include breakpoint(medium) {
-        margin-left: -50vw;
         margin-right: -50vw;
-        padding-left: 50vw;
+        margin-left: -50vw;
         padding-right: 50vw;
-        /* background-color: #f7f6e9; */
+        padding-left: 50vw;
+    }
+    h3, {
+        color: #ffb833;
+    }
+    a {
+        color: #80e1ff;
     }
 }
 
 .callout-2 {
-    background-color: #8fb253; 
+    background-color: #98b861;
+    font-size: 85%;
+
     @include breakpoint(large) {
-        font-size: 80%;
-				color: $black;
+       
+
         float: right;
 
         width: 50%;
         margin-right: -30%;
-        margin-left: 10%;
         margin-bottom: 2em;
+        margin-left: 10%;
         padding: 2% 5%;
 
-        // background-color: #8fb253;
-        /* border: 1px solid $light-gray; */
-        h4 {
-            color: #fff;
-        }
+        color: $black;
     }
-    @include breakpoint(small) {        
+    @include breakpoint(small) {
         margin: $callout-margin;
         padding: $callout-padding;
         padding-bottom: 1em;
-
-        /* background-color: #f7f6e9; */
+    }
+    h4 {
+        color: #fff;
     }
 }
 
@@ -318,7 +336,6 @@ figure {
     display: table;
 
     margin: 2em 0 1em;
-
 }
 
 figcaption {
@@ -332,21 +349,23 @@ figcaption {
     caption-side: bottom;
 
     text-align: left;
-    border-bottom: 1px solid #b82e00;
 
-/*     background-color: #f9e2b6; */
+    border-bottom: 1px solid #b82e00;
+    /*     background-color: #f9e2b6; */
 }
 
 .left {
     float: left;
-    margin-right: 0.88235rem;
+
+    margin-right: .88235rem;
     margin-bottom: .5rem;
 }
 
 .right {
     float: right;
-    margin-left: 0.88235rem;
+
     margin-bottom: .5rem;
+    margin-left: .88235rem;
 }
 
 .end {
@@ -364,7 +383,8 @@ figcaption {
 //---------------
 
 .main-content {
+    overflow: hidden; // prevent horizontal scroll bar
+
     margin-bottom: 3rem;
     padding: 0 1rem;
-    overflow: hidden; // prevent horizontal scroll bar
 }
