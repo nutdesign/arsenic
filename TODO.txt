@@ -1,3 +1,39 @@
+MJY Updates Dec 5
+
+Several website updates today (about two hours). You can review them at: http://www.dartmouth.edu/~arsenicandyou/ReviewDraft/
+
+Notes:
+
+* Revised colors and opacity for the menu and "what you can do" callout. 
+
+* Slightly modified the green callout color to provide better text contrast for readability. 
+
+* Placed the new home page collage. 
+
+* Placed several, but not all, of the new banner graphics. Further notes below:
+
+* There are several pages where there is more than one banner image listed in the spreadsheet. I'm not sure if the intent is to experiment and see what looks best, or to stack them in sequence. I only placed the first one for any given page based on what was listed in the spreadsheet.
+
+* There are several images that have more than one page listed in the spreadshet. I'm not sure if the intent is to reuse the images, or to decide later which page gets which image. For now I only placed a banner image on a single page. (And, reiterating the above point, only one banner image per page.)
+
+* Regarding the children_small image: It's too large for the existing text paragraph -- it makes first half of the bullet list wrap, but not the second half. Either 1) image needs to be smaller; or 2) needs to be more text in that paragraph. For now I have changed the image size from 275px square to 150px square so the text wraps correctly.
+
+* Similar to the children_small image, the small beer and wine image won't work because wrapping bullet lists around images is problematic. (The Beer and Wine page is virtually all bullet lists.)  I did not place the image on the page.
+
+* Image "alt text" added to all placed images so that accessibility screen readers have something to work with. Text was taken from the spreadsheet.
+
+* Banner images placed: Children; Gluten-Free; Rice; Fruits, Juices, and Vegetables; Water Testing; Water Treatment; Other Sources. 
+
+* Small images placed: Children. 
+
+* Note: If some of the images are intended to be place within the body of the text they should not be banner sized, but more like 867px wide rather than the 1125px wide banner images. 
+
+You should be able to move the images by cutting and pasting the <img> code — however, the banner images are currently 1125px wide, and I’m not sure what will happen if you put them in the body text block (I expect they would have to be resized, as noted above).
+
+As I write this from Sydney it is about 11:00 am on Monday December 5. We are 16 hours ahead of Boston time. I’ll have another short work session availability on Wednesday (Aussie time). Please let me know if I can do anything to help during that session. 
+
+
+
 MJY updates as of Nov 11
 
 * Extensively updated the combined punch list Word doc. 
