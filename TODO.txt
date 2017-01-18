@@ -1,3 +1,27 @@
+MJY Updates Jan 18, 2017
+
+* Switched order of Water and Food top Nav tabs so Water comes before Food as you are reading from left to right.
+
+* Made the pages under Other Sources their own pages. Notes:
+	- For now I'm leaving the old "Sources" page where it is in Pivot. 
+	- Wood: This was the start of the old, integrated section. The introduction might need a rewrite. I put the old initial text in the notes ("## Should you be concerned about arsenic? Yes. EVERYONE should learn about how they might be exposed to arsenic through well water, food and other sources like pressure treated wood, smoking and industrial or high-arsenic areas.")
+	- Smokers: As with wood, there possibly should be a more extensive introduction. I used some of the old text to fill out the intro, and I think it fits, but should be reviewed. This page would also benefit from a testimonial quote at the end, or a banner graphic, between the recommendations and the footer.
+	- Locations: It's a little choppy with the first bullet list so high up on the page. Consider moving the text starting with, "arsenic can be a problem no matter where you live" to the top, and putting the bullet list after the usgs map?
+
+* Updated links for Smoking, Locations, Wood to new pages.
+
+* Removed links to "Other Sources".
+
+* Changed order of pages under Food Nav tab so that Beer and Wine is the second to last before Meat and Animal products.
+
+* Now opening external links in a new window. This was a manual process, so if I missed any please let me know the page number and some text to indicate how to find the link.
+
+* Took out all square photos and put code in Notes Section.
+
+* Removed As Species diagram on Exposure and Seafood.
+
+
+
 MJY Updates Dec 5
 
 Several website updates today (about two hours). You can review them at: http://www.dartmouth.edu/~arsenicandyou/ReviewDraft/
