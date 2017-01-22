@@ -155,6 +155,8 @@ nav {
 .menu > li {
     font-size: rem-calc(16);
 
+    margin-bottom: 0;
+
     vertical-align: top;
 
     @include breakpoint(xlarge) {
@@ -169,6 +171,15 @@ nav {
         &:hover {
             color: #fff;
         }
+    }
+}
+
+li {
+    margin-bottom: .5rem;
+    > ul {
+        padding-top: .5rem;
+
+        list-style-type: disc;
     }
 }
 
@@ -195,7 +206,8 @@ nav {
     padding-top: 2em;
 
     color: transparentize(#fff, .2);
-    background-color: #004f68;
+    /* background-color: #4a2b3e; */
+    background-color: darken(#004f68, 6%);
     a {
         font-weight: 700;
 
@@ -220,11 +232,14 @@ nav {
 
 .intro {
     margin: 0;
-    padding: 1rem 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
     /*  background: $light-gray; */
     h1 {
         line-height: 1.175;
         /*  text-shadow: rgba(0,0,0,.5) 1px 1px 1px; */
+    }
+    @include breakpoint(large) {
+        padding-top: 1rem;
     }
 }
 
@@ -294,8 +309,15 @@ cite {
         padding-right: 50vw;
         padding-left: 50vw;
     }
-    h3, {
+    h2 {
+        color: $white;
+    }
+    h3 {
         color: #ffb833;
+    }
+    h4 {
+        /* color: #98b861; */
+        color: #a5eb7f;
     }
     a {
         color: #80e1ff;
@@ -303,15 +325,15 @@ cite {
 }
 
 .callout-2 {
-    background-color: #98b861;
     font-size: 85%;
 
-    @include breakpoint(large) {
-       
+    background-color: #98b861;
 
+    @include breakpoint(large) {
         float: right;
 
         width: 50%;
+        margin-top: 0;
         margin-right: -30%;
         margin-bottom: 2em;
         margin-left: 10%;
@@ -326,6 +348,12 @@ cite {
     }
     h4 {
         color: #fff;
+    }
+    > h3, > h4 {
+        margin-top: .5rem;
+    }
+    hr {
+        border-color: $white;
     }
 }
 
@@ -349,9 +377,7 @@ figcaption {
     caption-side: bottom;
 
     text-align: left;
-
-    border-bottom: 1px solid #b82e00;
-    /*     background-color: #f9e2b6; */
+    /* border-bottom: 1px solid #b82e00; */
 }
 
 .left {
@@ -387,4 +413,7 @@ figcaption {
 
     margin-bottom: 3rem;
     padding: 0 1rem;
+}
+.to-top {
+    text-align: center;
 }

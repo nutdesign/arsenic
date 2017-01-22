@@ -59,6 +59,9 @@ secondary: #c6483b,
   warning: #ffae00,
   alert: #ec5840,
 );
+/* #343434
+#b82e00
+#343434 */
 $tertiary-color: #006268;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
@@ -173,11 +176,11 @@ $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
-$hr-border: 1px solid $medium-gray;
+$hr-border: 1px solid #b82e00;
 $hr-margin: rem-calc(20) auto;
 $list-lineheight: $paragraph-lineheight;
 $list-margin-bottom: $paragraph-margin-bottom;
-$list-style-type: disc;
+$list-style-type: square;
 $list-style-position: outside;
 $list-side-margin: 1.25rem;
 $list-nested-side-margin: 1.25rem;
