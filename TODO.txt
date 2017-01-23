@@ -1,3 +1,30 @@
+SC/MJY Updates Jan 23
+
+* Removed excess top padding on green sidebars. Also removed top margin on desktop so it top aligns better with headers in the main column.
+
+* Darkened footer color. 
+
+* Default bullet is now square, as that looks bolder, nested bullet is disc. 
+
+* Reduced the headline top padding on mobile to make it tighter to the menu above. 
+
+* New sub-head color in Recommendation callout. See example on the Rice page. Note that "sub-heads" are implemented as headlines to separate lists. So the flow on Rice looks like: "What You Can Do" headline, sub-head, list, sub-head, list, sub-head, list. This should be clear in the code; let me know if you have questions for using this on other pages. 
+
+* Changed markup for sub-head in Gluten-Free Recommendations ("Also be sure to:") to new sub-head style. 
+
+* Changed how the red separator line works for the figures/images (like the USGS map). Now, add an "<hr>" either before or after the figure when you want the line. I added these where appropriate -- for example, on Exposure, to separate the figure from the bullet list preceding it. We might not always want one above, or one below. For example, again on Exposure, right below is a Recommendations box, so it doesn't look good there. Adding these manually gives us more control for specific content uses. 
+
+* On the "Information and Resource Links" page: I reduced the size of the link, from a sub-head to a normal paragraph link, which I think it looks a little more sophisticated, and significantly better on mobile. If we ever added images to each link this might want to go back to larger sub-head links... 
+
+* "Back to top" links still need a little bit more work. Stay tuned for a day or two.
+
+
+Editorial comment on Gluten-Free page:
+
+* In the Recommendation box: It seems like the bold text should be directives: "Try new grains; Choose foods with less rice" etc. This would require an edit to the lead sentence.
+
+
+
 MJY Updates Jan 18, 2017
 
 * Switched order of Water and Food top Nav tabs so Water comes before Food as you are reading from left to right.
