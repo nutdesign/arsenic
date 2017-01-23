@@ -12,7 +12,8 @@
 ## How to compile SCSS manually
 
 * cd to ~/dev/arsenic-mjy/arsenic-lace/src
-* npm run build  --- OR ---
+* npm run build  // use this line to avoid "Error: File to import not found or unreadable: util/util."
+* --- OR ---
 * Usage: scss [options] [INPUT] [OUTPUT]
 * scss ./assets/scss/app.scss ../dist/assets/css/app.css 
 
