@@ -1,3 +1,19 @@
+MJY Updates Feb 10
+
+* Replaced six banner images.
+
+* Replaced three text-images.
+
+* Moved all banner images into the "intro" block to increase size and horizontal position.
+
+* Fixed bullet coding in gluten-free.
+
+* Edited gluten-free alternate grains bullets to use html entity arrow and italics (to shorten vertical scroll).
+
+* Added quote to smoking page.
+
+
+
 SC/MJY Updates Jan 23
 
 * Removed excess top padding on green sidebars. Also removed top margin on desktop so it top aligns better with headers in the main column.
@@ -21,7 +37,7 @@ SC/MJY Updates Jan 23
 
 Editorial comment on Gluten-Free page:
 
-* In the Recommendation box: It seems like the bold text should be directives: "Try new grains; Choose foods with less rice" etc. This would require an edit to the lead sentence.
+* In the Recommendation box: It seems like the bold text might want to be directives: "Try new grains; Choose foods with less rice" etc. This would require an edit to the lead sentence.
 
 
 
