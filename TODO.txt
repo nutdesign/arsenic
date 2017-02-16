@@ -1,3 +1,14 @@
+MJY Updates Feb 16
+
+* Removed green callout on Seafood -- page needs more content for the sidebar to work.
+
+* Added or replaced nine new inline graphics.
+
+* Added "Back to the Top" code on the Health Effects, Information and Resource Links and  Definitions pages.
+
+
+
+
 MJY Updates Feb 10
 
 * Replaced six banner images.
@@ -95,9 +106,9 @@ Notes:
 
 * Note: If some of the images are intended to be place within the body of the text they should not be banner sized, but more like 867px wide rather than the 1125px wide banner images. 
 
-You should be able to move the images by cutting and pasting the <img> code — however, the banner images are currently 1125px wide, and I’m not sure what will happen if you put them in the body text block (I expect they would have to be resized, as noted above).
+You should be able to move the images by cutting and pasting the <img> code — however, the banner images are currently 1125px wide, and I'm not sure what will happen if you put them in the body text block (I expect they would have to be resized, as noted above).
 
-As I write this from Sydney it is about 11:00 am on Monday December 5. We are 16 hours ahead of Boston time. I’ll have another short work session availability on Wednesday (Aussie time). Please let me know if I can do anything to help during that session. 
+As I write this from Sydney it is about 11:00 am on Monday December 5. We are 16 hours ahead of Boston time. I'll have another short work session availability on Wednesday (Aussie time). Please let me know if I can do anything to help during that session. 
 
 
 
@@ -154,11 +165,11 @@ http://yacavone.com/clients/toxicmetalsarsenic/draftsix/health/exposure.html
 
 Notes from Lauire, prior to today's work:
 
-* "Pull quote font size compared to size of font for regular text and headings" I assume she means she thinks it's too big. I like it, but I’m sure it could be somewhat smaller too. 
+* "Pull quote font size compared to size of font for regular text and headings" I assume she means she thinks it's too big. I like it, but I'm sure it could be somewhat smaller too. 
 
 done * "Links seem to show up well against a background color as opposed to the white." She suggests that more saturated link colors would be better.
 
-done * "The current Title “Arsenic and You” font size is too small compared to the first Header on the page (Welcome to Arsenic and You)." I suggested that the Title might be the right size, because visitors come for the information -- the title is for credibility and orientation, not promotion. 
+done * "The current Title "Arsenic and You" font size is too small compared to the first Header on the page (Welcome to Arsenic and You)." I suggested that the Title might be the right size, because visitors come for the information -- the title is for credibility and orientation, not promotion. 
 
 done * "Could you reduce the font size of the First Header (Welcome to Arsenic and You)? And if that means all the other sub-header size types need to be reduced as well I think that is fine." I'm not sure about this, but add it here for completeness. 
 
@@ -205,7 +216,7 @@ done * Recommendation box full-width color?
 
 done * Footer styling
 
-done * Add recommendation disclaimer to the footer (“This information is based on current scientific knowledge about arsenic in food, water, and other sources. It includes evidence-based recommendations to help you reduce exposure to arsenic. While some may not be appropriate or possible for everyone, follow the suggestions that make sense for you. Any step taken to reduce exposure to arsenic makes a difference in lowering your chances of arsenic-related health risks.”
+done * Add recommendation disclaimer to the footer ("This information is based on current scientific knowledge about arsenic in food, water, and other sources. It includes evidence-based recommendations to help you reduce exposure to arsenic. While some may not be appropriate or possible for everyone, follow the suggestions that make sense for you. Any step taken to reduce exposure to arsenic makes a difference in lowering your chances of arsenic-related health risks."
 
 done * Color bar behind main menu bar?
 
