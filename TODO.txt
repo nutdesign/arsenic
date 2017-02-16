@@ -6,6 +6,9 @@ MJY Updates Feb 16
 
 * Added "Back to the Top" code on the Health Effects, Information and Resource Links and  Definitions pages.
 
+* Fixed some minor bullet indentation formatting typos on Exposure, Gluten-Free, and Water Treatment.
+
+* Reviewed website on iPad and iPhone. 
 
 
 
