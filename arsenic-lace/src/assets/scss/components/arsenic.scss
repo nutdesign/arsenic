@@ -398,6 +398,10 @@ figcaption {
     margin-right: 0;
 }
 
+.intro img {
+	padding: 0 2rem;
+}
+
 @include breakpoint(medium) {
     .wide {
         margin-right: -15%;
