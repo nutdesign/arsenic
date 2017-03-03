@@ -1,3 +1,14 @@
+MJY Updates Mar 3
+
+* Renamed Recommendations to What You Can Do.
+
+* Added Literature and What You Can Do to the main navigation.
+
+* I didn’t think the long page of color worked on What You Can Do, so I removed the callout codes, and changed the headline markup to be the same as other pages. I did add a horizontal rule between sections to break it up a little, and with the blue links in the headlines I think it works pretty well. I don’t think it needs anchors just yet, but if you get a lot of feedback along those lines let’s take another look. 
+
+* Added ‘back to top’ on both new pages.
+
+
 MJY Updates Feb 16
 
 * Removed green callout on Seafood -- page needs more content for the sidebar to work.
